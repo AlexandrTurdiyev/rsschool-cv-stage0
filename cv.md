@@ -1,4 +1,4 @@
-![alexandr-turdiyev-photo](alexandr.turdiye.jpg)
+![alexandr-turdiyev-photo](alexandr.turdiyev.jpg)
 
 # Alexandr Turdiyev
 
