@@ -2,14 +2,14 @@
 
 ## Contacts:
 Phone, WhatsApp: +7 700 144 46 22
-E-mail: alexandr.turdiyev@gmail.com
+E-mail: alexandr.turdiyev@gmail.com 
 GitHub: AlexandrTurdiyev
 Discord: Alexandr Turdiyev / username: alexandr_turdiyev
 Discord in RS.School server: Alex(AlexandrTurdiyev)
-Telegram: alexandr_turdiyev
+Telegram:  [alexandr_turdiyev](https://t.me/alexandr_turdiyev)
 Instagram: alexandr.turdiyev
 
-## About me
+## About me:
 I am 30 years old. Born in Almaty, Kazakhstan. One day I left my native country and found myself traveling. I really like to solve various problems related to programming. I study development hard in order to be one of the best specialists in this field.
 
 I am always ready for change and can quickly adapt to any task.
