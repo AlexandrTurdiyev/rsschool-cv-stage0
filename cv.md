@@ -1,6 +1,6 @@
-Alexandr Turdiyev
+# Alexandr Turdiyev
 
-Contacts:
+## Contacts:
 Phone, WhatsApp: +7 700 144 46 22
 E-mail: alexandr.turdiyev@gmail.com
 GitHub: AlexandrTurdiyev
@@ -9,11 +9,12 @@ Discord in RS.School server: Alex(AlexandrTurdiyev)
 Telegram: alexandr_turdiyev
 Instagram: alexandr.turdiyev
 
+## About me
 I am 30 years old. Born in Almaty, Kazakhstan. One day I left my native country and found myself traveling. I really like to solve various problems related to programming. I study development hard in order to be one of the best specialists in this field.
 
 I am always ready for change and can quickly adapt to any task.
 
-My skills:
+## My skills:
     *HTML5/CSS3 - basics.
     *JS FE - studying.
     *Git - basics.
@@ -21,10 +22,10 @@ My skills:
     *FIGMA - basics.
     *AdobeXD - basics.
 
-Code examples: 
+## Code examples: 
 none
 
-Education:
+## Education:
     College: Almaty Technical College
         Faculty: Computing and software
         Speciality: Technician-programmer
@@ -35,6 +36,6 @@ Education:
         code-basics.com: Java Script (In progress)
         rs.school: JS / FRONT-END (RU) (In progress)
 
-English and other languages:
+## English and other languages:
 English: beginner.
 Russian: native.
