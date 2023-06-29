@@ -1,3 +1,5 @@
+![alexandr-turdiyev-photo](/rsschool-cv/alexandr.turdiyev.jpg)
+
 # Alexandr Turdiyev
 
 ## Contacts:
@@ -27,14 +29,14 @@ none
 
 ## Education:
 - College: Almaty Technical College
-    Faculty: Computing and software
-    Speciality: Technician-programmer
+ * Faculty: Computing and software
+ * Speciality: Technician-programmer
 
 - Courses:
-    code-basics.com: HTML (Interactive course completed)
-    code-basics.com: CSS (Interactive course completed)
-    code-basics.com: Java Script (In progress)
-    rs.school: JS / FRONT-END (RU) (In progress)
+ * code-basics.com: HTML (Interactive course completed)
+ * code-basics.com: CSS (Interactive course completed)
+ * code-basics.com: Java Script (In progress)
+ * rs.school: JS / FRONT-END (RU) (In progress)
 
 ## English and other languages:
 - English: beginner.
