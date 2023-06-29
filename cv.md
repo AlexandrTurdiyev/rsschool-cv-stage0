@@ -25,7 +25,9 @@ I am always ready for change and can quickly adapt to any task.
 - AdobeXD - basics.
 
 ## Code examples: 
-none
+```function multiply(a, b){
+  return a * b
+}```
 
 ## Education:
 - College: Almaty Technical College
