@@ -1,4 +1,4 @@
-![alexandr-turdiyev-photo](/rsschool-cv/alexandr.turdiyev.jpg)
+![alexandr-turdiyev-photo](alexandr.turdiyev.jpg)
 
 # Alexandr Turdiyev
 
