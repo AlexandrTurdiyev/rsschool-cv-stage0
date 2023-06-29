@@ -5,8 +5,8 @@
 ## Contacts:
 - Phone, WhatsApp: +7 700 144 46 22
 - E-mail: alexandr.turdiyev@gmail.com 
-- GitHub: AlexandrTurdiyev
-- Discord: Alexandr Turdiyev / username: alexandr_turdiyev
+- GitHub: [AlexandrTurdiyev](https://github.com/AlexandrTurdiyev/)  
+- Discord: [Alexandr Turdiyev](https://discordapp.com/users/955026775396741182/) / username: [alexandr_turdiyev](https://discordapp.com/users/955026775396741182/)
 - Discord in RS.School server: Alex(AlexandrTurdiyev)
 - Telegram: [alexandr_turdiyev](https://t.me/alexandr_turdiyev)
 - Instagram: [alexandr.turdiyev](https://www.instagram.com/alexandr.turdiyev?utm_source=qr)
@@ -25,20 +25,22 @@ I am always ready for change and can quickly adapt to any task.
 - AdobeXD - basics.
 
 ## Code examples: 
-```function multiply(a, b){
+```
+function multiply(a, b){
   return a * b
-}```
+}
+```
 
 ## Education:
-- College: Almaty Technical College
- * Faculty: Computing and software
- * Speciality: Technician-programmer
+* College: Almaty Technical College
+    + Faculty: Computing and software
+    + Speciality: Technician-programmer
 
-- Courses:
- * code-basics.com: HTML (Interactive course completed)
- * code-basics.com: CSS (Interactive course completed)
- * code-basics.com: Java Script (In progress)
- * rs.school: JS / FRONT-END (RU) (In progress)
+* Courses:
+    + code-basics.com: HTML (Interactive course completed)
+    + code-basics.com: CSS (Interactive course completed)
+    + code-basics.com: Java Script (In progress)
+    + rs.school: JS / FRONT-END (RU) (In progress)
 
 ## English and other languages:
 - English: beginner.
