@@ -1,0 +1,44 @@
+a {
+    text-decoration: none; /* убарт черту под текстом */
+    color: #000000; /* назначить тексту чёрный цвет */
+}
+
+ul {
+    list-style-type: none; /* убрать точки слева от текста */
+    margin: 0; /* убрать лишние отступы */
+    padding: 0; /* убрать лишние отступы */
+}
+
+.container {
+    background-color: aquamarine; /* назначить цвет блоку, для понимания размещения и размера блока */
+    
+    display: flex; /* включить тип разметки flex */
+    justify-content: center; /* размещать контента в центре */    
+}
+
+.header {
+    background-color: #DBFF00; /* назначить цвет основному блоку хедера, для понимания размещения и размера блока */
+
+    max-width: 1220px; /* указать максимальную ширину блока */
+    min-width: 1220px; /* указать минимальную ширину блока */
+}
+
+.header__upline {
+    width: 1220px; /* установить ширину блока */
+    height: 100px; /* установить высоту блока */
+}
+
+.header__upline_menu {
+
+}
+
+.menu__list {
+    background-color: azure; /* назначить цвет блоку, для понимания размещения и размера блока */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list_item {
+    background-color: bisque; /* назначить цвет блоку, для понимания размещения и размера блока */
+}
