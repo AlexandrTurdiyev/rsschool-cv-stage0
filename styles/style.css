@@ -1,34 +1,55 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box; /*  */
+}
+
 a {
-    text-decoration: none; /* убарт черту под текстом */
+    text-decoration: none; /* убрать черту под текстом */
     color: #000000; /* назначить тексту чёрный цвет */
 }
 
 ul {
-    list-style-type: none; /* убрать точки слева от текста */
+    list-style: none; /* убрать точки слева от текста */
     margin: 0; /* убрать лишние отступы */
     padding: 0; /* убрать лишние отступы */
 }
 
+li {
+    padding-left: 0;
+}
+
 .container {
-    background-color: aquamarine; /* назначить цвет блоку, для понимания размещения и размера блока */
-    
-    display: flex; /* включить тип разметки flex */
-    justify-content: center; /* размещать контента в центре */    
+    max-width: 1220px; /* максимальная ширина контейнера */
+    padding: 0 10px;
+    margin: 0 auto;      
 }
 
 .header {
     background-color: #DBFF00; /* назначить цвет основному блоку хедера, для понимания размещения и размера блока */
 
-    max-width: 1220px; /* указать максимальную ширину блока */
-    min-width: 1220px; /* указать минимальную ширину блока */
+    max-width: 1200px; /* указать максимальную ширину блока */
+    min-width: 1200px; /* указать минимальную ширину блока */
+    height: 650px;
 }
 
 .header__upline {
-    width: 1220px; /* установить ширину блока */
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+
+    width: 1200px; /* установить ширину блока */
     height: 100px; /* установить высоту блока */
 }
 
 .header__upline_menu {
+    min-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
 
 }
 
@@ -37,8 +58,19 @@ ul {
 
     display: flex;
     justify-content: space-between;
+
 }
 
-.menu__list_item {
-    background-color: bisque; /* назначить цвет блоку, для понимания размещения и размера блока */
+
+.menu__link-text {
+    background-color: #D9D9D9;  
+    margin: 10px 10px 10px 10px;
+    padding: 36px 22px 36px 22px;
+    
+    color: #000000;
 }
+
+.menu__link-text:hover {
+    color: #FFFFFF;
+}
+
