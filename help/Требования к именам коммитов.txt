@@ -1,0 +1,32 @@
+
+init: - используется для начала проекта/таска. Примеры:
+	init: start youtube-task                                      init: запустить youtube-задачу
+	init: start mentor-dashboard task                             init: запустить задачу mentor-dashboard
+
+feat: - это реализованная новая функциональность из технического задания (добавил поддержку зумирования, добавил footer, добавил карточку продукта). Примеры:
+	feat: add basic page layout                                   feat: добавить базовый макет страницы
+	feat: implement search box                                    feat: внедрить окно поиска
+	feat: implement request to youtube API                        feat: реализовать запрос к youtube API
+	feat: implement swipe for horizontal list                     feat: внедрить свайп для горизонтального списка
+	feat: add additional navigation button                        feat: добавить дополнительную кнопку навигации
+	feat: add banner                                              feat: добавить баннер
+	feat: add social links                                        feat: добавить социальные ссылки
+	feat: add physical security section                           feat: добавить раздел физической безопасности
+	feat: add real social icons                                   feat: добавить настоящие социальные иконки
+ 
+fix: - исправил ошибку в ранее реализованной функциональности. Примеры:
+	fix: implement correct loading data from youtube              fix: реализовать правильную загрузку данных с youtube
+	fix: change layout for video items to fix bugs                fix: изменить макет для видеоэлементов, чтобы исправить ошибки
+	fix: relayout header for firefox                              fix: заголовок relayout для firefox
+	fix: adjust social links for mobile                           fix: настроить социальные ссылки для мобильных устройств
+
+refactor: - новой функциональности не добавлял / поведения не менял. Файлы в другие места положил, удалил, добавил. 
+Изменил форматирование кода (white-space, formatting, missing semi-colons, etc). Улучшил алгоритм, без изменения функциональности. Примеры:
+	refactor: change structure of the project                     рефакторинг: изменить структуру проекта
+	refactor: rename vars for better readability                  рефакторинг: переименовать vars для лучшей читабельности
+	refactor: apply eslint                                        рефакторинг: применить eslint
+	refactor: apply prettier                                      рефакторинг: применить красивее
+
+docs: - используется при работе с документацией/readme проекта. Примеры:
+	docs: update readme with additional information               документы: обновить readme с дополнительной информацией
+	docs: update description of run() method                      документы: обновить описание метода run()
