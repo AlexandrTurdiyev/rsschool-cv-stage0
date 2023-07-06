@@ -28,10 +28,6 @@ ul.menu__list {
     list-style: none; /* убрать точки в списке */
 }
 
-.body {
-    
-}
-
 /*-------------------------------------------
 
 [start] HEADER ->
@@ -60,10 +56,6 @@ ul.menu__list {
     font-size: 24px; /* установить размер шрифта */
     padding: 0; /* избавиться от лишних отступов */
     margin: 0 auto; /* избавиться от лишних отступов */
-}
-
-.menu__list-item {
-    
 }
 
 .menu__link {
@@ -360,3 +352,204 @@ ul.menu__list {
     font-weight: 400;
     margin-left: 305px;
 }
+
+
+/*---------------[start]---------------------
+---------------------------------------------
+------------- MEDIA QUERIES -----------------
+---------------------------------------------
+-------------------------------------------*/
+
+@media (max-width: 1200px){
+    .header__photoline {
+        display: block;
+    }
+
+    .photoline__photo {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .photo-img {
+        margin: 0;
+        /* padding-top: 20px; */
+    }
+    
+    .photoline__name-text {
+        display: block;
+        text-align: center;
+        /* margin 0; */
+    }
+
+    .first_name {
+        margin: 0;
+    }
+
+    .last_name {
+        margin: 0 0 0 20px;
+    }
+
+    .description__column_left {
+        margin: 0 10px 0 20px;
+    }
+
+    .description__column_right {
+        margin: 0 20px 0 10px;
+    }
+
+    .education__list,
+    .mycontacts__list {
+        margin: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .colledge__list,
+    .courses__list {
+        padding: 0 0 0 20px;
+    }
+}
+
+@media (max-width: 900px){
+    .header__upline {
+        border-radius: 0;
+    }
+
+    #about_me {
+        border-radius: 0;
+    }
+
+    #my_contacts {
+        border-radius: 0;
+    }
+    
+    
+    .menu__list {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    } 
+    
+    
+    .menu__link {
+        display: block;
+        padding: 0;
+    }
+    
+    
+    .header__photoline {
+        display: block;
+    }
+
+    .photo-img {
+        margin: 0;
+    }
+    
+    .photoline__name-text {
+        display: block;
+        /* margin: 0; */
+    }
+
+    .first_name {
+        margin: 0;
+    }
+
+    .last_name {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 780px){
+    .header__photoline {
+        display: block;
+    }
+
+    .photo-img {
+        margin: 0;
+    }
+    
+    .photoline__name-text {
+        display: block;
+        text-align: center;
+        /* margin: 0; */
+    }
+
+    .first_name {
+        margin: 0;
+    }
+
+    .last_name {
+        margin: 0;
+    }
+
+    .description {
+        display: block;    
+    }
+
+    .line {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .year {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .header__photoline {
+        display: block;
+    }
+
+    .photo-img {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+    
+    .photoline__name-text {
+        display: block;
+        /* margin: 0; */
+    }
+
+    .first_name,
+    .last_name {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    }
+}
+
+@media (max-width: 440px){
+    .mycontacts__list {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer__inner {
+        border-radius: 0;
+    }
+
+    .footer__list {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__list-item {
+        margin: 10px 0 10px 0;
+    }
+
+    .year {
+        margin: 40px 0 40px 0;
+        padding-top: 40px 0 40px 0;
+    }
+}
+
+
+/*-------------------------------------------
+---------------------------------------------
+------------- MEDIA QUERIES -----------------
+---------------------------------------------
+------------------[end]--------------------*/
