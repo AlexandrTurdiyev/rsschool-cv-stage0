@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none; /* убрать точки в списке */
+    /* max-width: 1200px; */
+}
+
+.body {
+    
+}
+
+.header {
+    /* background-color: #ff1073; */
+    max-width: 1200px; /* задать максимальную ширину хедера */
+    /* max-height: 100px; */
+    margin: 0 auto; /* центрировать хедер по горизонтали */
+    /* display: flex; */
+    /* flex-flow: column; */
+    border-radius: 0 0 20px 20px;
+}
+
+.header__upline {
+    /* max-height: 100px;     */
+}
+
+.menu__list {
+    display: flex; /* расположить пункты меню в строку */
+    justify-content: space-between; /* распределить пункты меню по всей строке */
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif; /* подключить необходимый шрифт для пунктов меню */
+    font-size: 24px; /* установить размер шрифта */
+    padding: 0; /* избавиться от лишних отступов */
+    margin: 0 auto; /* избавиться от лишних отступов */
+}
+
+.menu__list-item {
+    
+}
+
+.menu__link {
+    display: flex; /* включить flex для центровки текста пунктов меню по вертикали */
+    padding: 33px 22px 33px 22px; /* установить отступы для текста пунктов меню */
+    transition: all 0.3s; /* включить плавное изменение цветов при наведении указателя */
+}
+
+.menu__link:hover {
+    background-color: #000000; /* установить цвет фона при наведении указателя */
+    color: #ffffff; /* установить цвет текста при наведении указателя */
+}
+
+#about_me {
+    border-radius: 0 0 0 20px; /* установить скругление угла для ABOUT ME */
+}
+
+#my_contacts {
+    border-radius: 0 0 20px 0; /* установить скругление угла для MY CONTACTS */
+}
+
+.header__photoline {
+    background-color: #00ff4c; /* установить цвет фона для блока с фото и имененм #test */
+}
