@@ -4,35 +4,55 @@
     box-sizing: border-box; 
 }
 
+h2 {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-ul {
+ul.menu__list {
     list-style: none; /* убрать точки в списке */
-    /* max-width: 1200px; */
 }
 
 .body {
     
 }
 
+/*-------------------------------------------
+
+[start] HEADER ->
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] HEADER GENERAL BLOCK:
+-------------------------------------------*/
 .header {
-    /* background-color: #ff1073; */
     max-width: 1200px; /* задать максимальную ширину хедера */
-    /* max-height: 100px; */
     margin: 0 auto; /* центрировать хедер по горизонтали */
-    /* display: flex; */
-    /* flex-flow: column; */
-    border-radius: 0 0 20px 20px;
 }
 
 .header__upline {
-    /* max-height: 100px;     */
+    background-color: #D9D9D9;
+    border-radius: 0 0 20px 20px; /* применить скругление углов */
 }
 
 .menu__list {
+    
     display: flex; /* расположить пункты меню в строку */
     justify-content: space-between; /* распределить пункты меню по всей строке */
     /* align-items: center; */
@@ -66,5 +86,277 @@ ul {
 }
 
 .header__photoline {
-    background-color: #00ff4c; /* установить цвет фона для блока с фото и имененм #test */
+    /* background-color: #00ff4c; установить цвет фона для блока с фото м именем #test */
+    display: flex; /* выстроить дочерние блоки в строку */
+    justify-content: space-between; /* распределить дочерние блоки по сторонам */
+}
+
+.photoline__photo {
+    /* background-color: #000000; установить цвет фона для блока #test */
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.photo-img {
+    /* background-color: #fbff00; установить цвет фона для блока #test */
+    width: 450px;/* установить ширину рамки для фото */
+    height: 450px; /* установить высоту рамки для фото */
+    margin: 50px 50px 50px 60px;
+}
+
+.photoline__name-text {
+    /* background-color: #5900ff; установить цвет фона для блока #test */
+    margin-right: 30px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.first_name,
+.last_name {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.first_name {
+    margin-top: 160px;
+    margin-right: 176px;
+}
+
+.last_name {
+    margin-left: 190px;
+}
+/*-------------------------------------------
+
+[end] HEADER ->
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+[start] DESCRIPTION ->
+
+-------------------------------------------*/
+
+.description {
+    max-width: 1200px; /* установить максимальную ширину блока */
+    margin: 0 auto; /* держать блок по центру страницы */
+    display: flex; /* установить дочерние блоки в строку (2 колонны рядом) */
+    justify-content: space-between; /* прижать 2 колонный к разным сторонам */
+}
+
+.description__column_left {
+    margin-left: 30px; /* установить отступ */
+    max-width: 560px; /* установить максимальную ширину блока */
+}
+
+.description__column_right {
+    margin-right: 30px; /* установить отступ */
+    max-width: 560px; /* установить максимальную ширину блока */
+}
+
+.line {
+    border-bottom: 4px solid #000000; /* стилизовать линию */
+    max-width: 560px; /* установить максимальную длину линии */
+}
+
+/*-------------------------------------------
+[start] ABOUT ME:
+-------------------------------------------*/
+.aboutme__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.aboutme-text {
+    margin: 16px 12px 16px 12px;
+}
+/*-------------------------------------------
+[end] ABOUT ME:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+[start] MY SKILLS:
+-------------------------------------------*/
+.myskills__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.skills__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+/*-------------------------------------------
+[end] MY SKILLS:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+[start] CODE EXAMPLES:
+-------------------------------------------*/
+.codeexamples__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.code__block {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.code__block-text {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.move-return {
+    margin-left: 30px;
+}
+
+/*-------------------------------------------
+[end] CODE EXAMPLES:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+---------------------------------------------
+[start] COLUMNT RIGHT ->
+---------------------------------------------
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] EDUCATION:
+-------------------------------------------*/
+.education__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.education__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------
+[end] EDUCATION:
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] ENGLISH AND OTHER LANGUAGES:
+-------------------------------------------*/
+.english__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.english__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+/*-------------------------------------------
+[end] ENGLISH AND OTHER LANGUAGES:
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] MY CONTACTS:
+-------------------------------------------*/
+.mycontacts__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+    margin-bottom: 60px;
+}
+
+.mycontacts__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+/*-------------------------------------------
+[end] MY CONTACTS:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+
+[end] COLUMNT RIGHT ->
+
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+
+[start] FOOTER ->
+
+-------------------------------------------*/
+.footer__inner {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px 20px 0 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.mygithub__icon {
+    width: 55px;
+    height: 55px;
+    margin-left: 50px;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-right: 50px;
+}
+
+
+.rsschool__stage0_icon {
+    width: 113px;
+    height: 42px;
+    margin-left: 0px;
+
+}
+
+.year {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 305px;
 }
