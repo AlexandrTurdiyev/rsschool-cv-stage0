@@ -32,18 +32,23 @@ ul.menu__list {
     
 }
 
+/*-------------------------------------------
+
+[start] HEADER ->
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] HEADER GENERAL BLOCK:
+-------------------------------------------*/
 .header {
-    /* background-color: #ff1073; */
     max-width: 1200px; /* задать максимальную ширину хедера */
-    /* max-height: 100px; */
     margin: 0 auto; /* центрировать хедер по горизонтали */
-    /* display: flex; */
-    /* flex-flow: column; */
-    border-radius: 0 0 20px 20px;
 }
 
 .header__upline {
-    /* max-height: 100px;     */
+    background-color: #D9D9D9;
+    border-radius: 0 0 20px 20px; /* применить скругление углов */
 }
 
 .menu__list {
@@ -123,6 +128,17 @@ ul.menu__list {
 .last_name {
     margin-left: 190px;
 }
+/*-------------------------------------------
+
+[end] HEADER ->
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+[start] DESCRIPTION ->
+
+-------------------------------------------*/
 
 .description {
     max-width: 1200px; /* установить максимальную ширину блока */
@@ -322,7 +338,6 @@ ul.menu__list {
 }
 
 .mygithub__icon {
-    background: url(images/footer_icons/github_logo_2.png) ;
     width: 55px;
     height: 55px;
     margin-left: 50px;
