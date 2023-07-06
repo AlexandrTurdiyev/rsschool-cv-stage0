@@ -66,5 +66,47 @@ ul {
 }
 
 .header__photoline {
-    background-color: #00ff4c; /* установить цвет фона для блока с фото и имененм #test */
+    /* background-color: #00ff4c; установить цвет фона для блока с фото м именем #test */
+    display: flex; /* выстроить дочерние блоки в строку */
+    justify-content: space-between; /* распределить дочерние блоки по сторонам */
 }
+
+.photoline__photo {
+    /* background-color: #000000; установить цвет фона для блока #test */
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.photo-img {
+    /* background-color: #fbff00; установить цвет фона для блока #test */
+    width: 450px;/* установить ширину рамки для фото */
+    height: 450px; /* установить высоту рамки для фото */
+    margin: 50px 50px 50px 60px;
+}
+
+.photoline__name-text {
+    /* background-color: #5900ff; установить цвет фона для блока #test */
+    margin-right: 30px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.first_name,
+.last_name {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.first_name {
+    margin-top: 160px;
+    margin-right: 176px;
+}
+
+.last_name {
+    margin-left: 190px;
+}
+
+
