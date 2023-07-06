@@ -4,14 +4,28 @@
     box-sizing: border-box; 
 }
 
+h2 {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-ul {
+ul.menu__list {
     list-style: none; /* убрать точки в списке */
-    /* max-width: 1200px; */
 }
 
 .body {
@@ -33,6 +47,7 @@ ul {
 }
 
 .menu__list {
+    
     display: flex; /* расположить пункты меню в строку */
     justify-content: space-between; /* распределить пункты меню по всей строке */
     /* align-items: center; */
@@ -109,4 +124,156 @@ ul {
     margin-left: 190px;
 }
 
+.description {
+    background-color: aqua; /* установить цвет фона для блока #test */
+    max-width: 1200px; /* установить максимальную ширину блока */
+    margin: 0 auto; /* держать блок по центру страницы */
+    display: flex; /* установить дочерние блоки в строку (2 колонны рядом) */
+    justify-content: space-between; /* прижать 2 колонный к разным сторонам */
+}
 
+.description__column_left {
+    background-color: #44ff00; /* установить цвет фона для блока #test */
+    margin-left: 30px; /* установить отступ */
+    max-width: 560px; /* установить максимальную ширину блока */
+}
+
+.description__column_right {
+    background-color: #0800ff; /* установить цвет фона для блока #test */
+    margin-right: 30px; /* установить отступ */
+    max-width: 560px; /* установить максимальную ширину блока */
+}
+
+.line {
+    border-bottom: 4px solid #000000; /* стилизовать линию */
+    max-width: 560px; /* установить максимальную длину линии */
+}
+
+/*-------------------------------------------
+[start] ABOUT ME:
+-------------------------------------------*/
+.aboutme__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.aboutme-text {
+    margin: 16px 12px 16px 12px;
+}
+/*-------------------------------------------
+[end] ABOUT ME:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+[start] MY SKILLS:
+-------------------------------------------*/
+
+.myskills__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.skills__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+/*-------------------------------------------
+[end] MY SKILLS:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+[start] CODE EXAMPLES:
+-------------------------------------------*/
+.codeexamples__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.code__block {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.code__block-text {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.move-return {
+    margin-left: 30px;
+}
+
+/*-------------------------------------------
+[end] CODE EXAMPLES:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+---------------------------------------------
+[start] COLUMNT RIGHT ->
+---------------------------------------------
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] EDUCATION:
+-------------------------------------------*/
+.education__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.education__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------
+[end] EDUCATION:
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] ENGLISH AND OTHER LANGUAGES:
+-------------------------------------------*/
+.english__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+}
+
+.english__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+/*-------------------------------------------
+[start] ENGLISH AND OTHER LANGUAGES:
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+
+[end] COLUMNT RIGHT ->
+
+-------------------------------------------*/
