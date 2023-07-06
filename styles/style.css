@@ -1,76 +1,70 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box; /*  */
+    box-sizing: border-box; 
 }
 
 a {
-    text-decoration: none; /* убрать черту под текстом */
-    color: #000000; /* назначить тексту чёрный цвет */
+    text-decoration: none;
+    color: inherit;
 }
 
 ul {
-    list-style: none; /* убрать точки слева от текста */
-    margin: 0; /* убрать лишние отступы */
-    padding: 0; /* убрать лишние отступы */
+    list-style: none; /* убрать точки в списке */
+    /* max-width: 1200px; */
 }
 
-li {
-    padding-left: 0;
-}
-
-.container {
-    max-width: 1220px; /* максимальная ширина контейнера */
-    padding: 0 10px;
-    margin: 0 auto;      
+.body {
+    
 }
 
 .header {
-    background-color: #DBFF00; /* назначить цвет основному блоку хедера, для понимания размещения и размера блока */
-
-    max-width: 1200px; /* указать максимальную ширину блока */
-    min-width: 1200px; /* указать минимальную ширину блока */
-    height: 650px;
+    /* background-color: #ff1073; */
+    max-width: 1200px; /* задать максимальную ширину хедера */
+    /* max-height: 100px; */
+    margin: 0 auto; /* центрировать хедер по горизонтали */
+    /* display: flex; */
+    /* flex-flow: column; */
+    border-radius: 0 0 20px 20px;
 }
 
 .header__upline {
-    background-color: aliceblue;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* align-items: center; */
-
-    width: 1200px; /* установить ширину блока */
-    height: 100px; /* установить высоту блока */
-}
-
-.header__upline_menu {
-    min-width: 1200px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-
-
+    /* max-height: 100px;     */
 }
 
 .menu__list {
-    background-color: azure; /* назначить цвет блоку, для понимания размещения и размера блока */
-
-    display: flex;
-    justify-content: space-between;
-
+    display: flex; /* расположить пункты меню в строку */
+    justify-content: space-between; /* распределить пункты меню по всей строке */
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif; /* подключить необходимый шрифт для пунктов меню */
+    font-size: 24px; /* установить размер шрифта */
+    padding: 0; /* избавиться от лишних отступов */
+    margin: 0 auto; /* избавиться от лишних отступов */
 }
 
-
-.menu__link-text {
-    background-color: #D9D9D9;  
-    margin: 10px 10px 10px 10px;
-    padding: 36px 22px 36px 22px;
+.menu__list-item {
     
-    color: #000000;
 }
 
-.menu__link-text:hover {
-    color: #FFFFFF;
+.menu__link {
+    display: flex; /* включить flex для центровки текста пунктов меню по вертикали */
+    padding: 33px 22px 33px 22px; /* установить отступы для текста пунктов меню */
+    transition: all 0.3s; /* включить плавное изменение цветов при наведении указателя */
 }
 
+.menu__link:hover {
+    background-color: #000000; /* установить цвет фона при наведении указателя */
+    color: #ffffff; /* установить цвет текста при наведении указателя */
+}
+
+#about_me {
+    border-radius: 0 0 0 20px; /* установить скругление угла для ABOUT ME */
+}
+
+#my_contacts {
+    border-radius: 0 0 20px 0; /* установить скругление угла для MY CONTACTS */
+}
+
+.header__photoline {
+    background-color: #00ff4c; /* установить цвет фона для блока с фото и имененм #test */
+}
