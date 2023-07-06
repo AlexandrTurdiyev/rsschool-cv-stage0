@@ -125,7 +125,6 @@ ul.menu__list {
 }
 
 .description {
-    background-color: aqua; /* установить цвет фона для блока #test */
     max-width: 1200px; /* установить максимальную ширину блока */
     margin: 0 auto; /* держать блок по центру страницы */
     display: flex; /* установить дочерние блоки в строку (2 колонны рядом) */
@@ -133,13 +132,11 @@ ul.menu__list {
 }
 
 .description__column_left {
-    background-color: #44ff00; /* установить цвет фона для блока #test */
     margin-left: 30px; /* установить отступ */
     max-width: 560px; /* установить максимальную ширину блока */
 }
 
 .description__column_right {
-    background-color: #0800ff; /* установить цвет фона для блока #test */
     margin-right: 30px; /* установить отступ */
     max-width: 560px; /* установить максимальную ширину блока */
 }
@@ -170,7 +167,6 @@ ul.menu__list {
 /*-------------------------------------------
 [start] MY SKILLS:
 -------------------------------------------*/
-
 .myskills__textframe {
     background-color: #D9D9D9;
     border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
@@ -268,7 +264,29 @@ ul.menu__list {
 }
 
 /*-------------------------------------------
-[start] ENGLISH AND OTHER LANGUAGES:
+[end] ENGLISH AND OTHER LANGUAGES:
+-------------------------------------------*/
+
+/*-------------------------------------------
+[start] MY CONTACTS:
+-------------------------------------------*/
+.mycontacts__textframe {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9; /* обознаячить границу подложки под текст */
+    border-radius: 10px; /* скруглить углы подложки */
+    margin-top: 20px; /* отступить сверху */
+    margin-bottom: 60px;
+}
+
+.mycontacts__list {
+    color: #000000;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+/*-------------------------------------------
+[end] MY CONTACTS:
 -------------------------------------------*/
 
 
@@ -277,3 +295,53 @@ ul.menu__list {
 [end] COLUMNT RIGHT ->
 
 -------------------------------------------*/
+
+
+/*-------------------------------------------
+
+[start] FOOTER ->
+
+-------------------------------------------*/
+.footer__inner {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px 20px 0 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.mygithub__icon {
+    background: url(images/footer_icons/github_logo_2.png) ;
+    width: 55px;
+    height: 55px;
+    margin-left: 50px;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-right: 50px;
+}
+
+
+.rsschool__stage0_icon {
+    width: 113px;
+    height: 42px;
+    margin-left: 0px;
+
+}
+
+.year {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 305px;
+}
