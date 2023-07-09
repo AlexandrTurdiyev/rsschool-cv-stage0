@@ -273,6 +273,30 @@ ul.menu__list {
     font-weight: 400;
     margin-left: 30px;
 }
+
+.whatsapp__link,
+.gmail__link,
+.github__link,
+.discord__link,
+.telegram__link,
+.instagram__link {
+    color: #59202e;    
+}
+
+.whatsapp__link:hover,
+.gmail__link:hover,
+.github__link:hover,
+.discord__link:hover,
+.telegram__link:hover,
+.instagram__link:hover {
+    color: #ffffff;
+    text-decoration:underline;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+
+
 /*-------------------------------------------
 [end] MY CONTACTS:
 -------------------------------------------*/
@@ -328,10 +352,10 @@ ul.menu__list {
     width: 35px;
     height: 35px;
     margin-left: 50px;
-    /* margin-top: 22px; */
-    /* margin-bottom: 23px; */
+    margin-top: 29px;
+    margin-bottom: 23px;
     margin-right: 50px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 
