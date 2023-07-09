@@ -7,6 +7,11 @@
 /*-[START]-----------------------------------
 ------------ HTML-tegs-style ----------------
 --------------------------------------------*/
+h1.h_name-text {
+    margin-top: 160px;
+    margin-right: 176px;
+}
+
 h2 {
     color: #000000;
     font-family: 'Belanosima', sans-serif;
@@ -111,11 +116,6 @@ ul.menu__list {
     font-family: 'Belanosima', sans-serif;
     font-size: 96px;
     font-weight: 400;
-}
-
-.first_name {
-    margin-top: 160px;
-    margin-right: 176px;
 }
 
 .last_name {
@@ -308,14 +308,67 @@ ul.menu__list {
     align-items: center;
 }
 
-.mygithub__icon {
-    width: 55px;
-    height: 55px;
-    margin-left: 50px;
-    margin-top: 22px;
-    margin-bottom: 23px;
-    margin-right: 50px;
+.git__linkblock {
+    display: block;
+    text-align: center;
+    line-height: 0.5;
+    margin: 22px 0 22px 10px;
 }
+
+.mygithub__link,
+.stage0__link {
+    font-size: 0;
+}
+
+.stage0__link {
+    margin-left: 30px;
+}
+
+.mygithub__icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+    /* margin-top: 22px; */
+    /* margin-bottom: 23px; */
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+
+.mygithub__icon:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    /* background: url(../images/footer_icons/github_logo_1.2.png); */
+}
+
+.mygithub__link-text {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+    margin: 0;
+
+    position: relative;
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+
+.mygithub__link-text:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 3px; /*задаём ширину линии*/
+	background-color: #000000; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.4s ease-out; /*задаём время анимации*/
+}
+
+.mygithub__link-text:hover:after,
+.mygithub__link-text:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
 
 
 .rsschool__stage0_icon {
@@ -329,7 +382,7 @@ ul.menu__list {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    margin-left: 305px;
+    margin-left: 275px;
 }
 
 
